@@ -1,0 +1,9 @@
+{
+    "extends":"../tsconfig.json",
+    "references": [
+       {"path": "../craigchess.board/"}
+    ],
+    "compilerOptions": {
+        "outDir": "./dist/"
+    }
+}

@@ -1,0 +1,14 @@
+{
+        "compilerOptions": {
+          "baseUrl": ".",
+          "composite": true,
+          "declaration": true,
+          "declarationMap": true,
+          "outDir": "./dist"
+        //   "paths": {
+        //     "craigchess.common": ["./craigchess.common/src"],
+        //     "craigchess.board": ["./craigchess.board/src"],
+        //     "craigchess.app": ["./craigchess.app/src"]
+        //   }
+        }
+}
