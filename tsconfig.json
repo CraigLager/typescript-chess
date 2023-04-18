@@ -1,14 +1,14 @@
 {
+  "ts-node": {
+    // Do not forget to `npm i -D tsconfig-paths`
+    "require": ["tsconfig-paths/register"]
+},
         "compilerOptions": {
           "baseUrl": ".",
           "composite": true,
           "declaration": true,
           "declarationMap": true,
           "outDir": "./dist"
-        //   "paths": {
-        //     "craigchess.common": ["./craigchess.common/src"],
-        //     "craigchess.board": ["./craigchess.board/src"],
-        //     "craigchess.app": ["./craigchess.app/src"]
-        //   }
-        }
+        },
+        
 }

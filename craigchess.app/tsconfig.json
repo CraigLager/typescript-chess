@@ -4,6 +4,9 @@
        {"path": "../craigchess.board/"}
     ],
     "compilerOptions": {
-        "outDir": "./dist/"
+        "outDir": "./dist/",
+        "paths": {
+            "@board/*":["../craigchess.board/src/*"]
+          }
     }
 }

@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "typed-inject": "^3.0.1"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0"
   }
 }

@@ -1,7 +1,9 @@
 import { BoardSquare } from "./BoardSquare";
 
-export interface IBoard
+interface IBoard
 {
     initialize():void;
     getPiece(square:BoardSquare)
 }
+
+export {IBoard}
